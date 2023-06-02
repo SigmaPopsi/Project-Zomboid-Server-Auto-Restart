@@ -1,10 +1,5 @@
 Basically, you to use this you need: Windows, RCON and some basic Zomboid server knowledge.
 
-Download the required tools:
-
-RCON client: Download the RCON client from https://github.com/gorcon/rcon-cli/releases/tag/v0.10.1 and place the executable (rcon.exe) in a convenient location.
-Scripts: Download the scripts from '' and extract them to a folder of your choice. Make sure to note the file paths where you place these scripts.
-
 Set up RCON on your server:
 
 Run the RCON Client (rcon.exe) and set up your IP (127.0 0.1 is the local IP) and password.
