@@ -1,4 +1,4 @@
-Basically, you to use this you need: Windows, RCON and some basic Zomboid server knowledge.
+Basically, to use this you need: Windows, RCON and some basic Zomboid server knowledge.
 
 Set up RCON on your server:
 
