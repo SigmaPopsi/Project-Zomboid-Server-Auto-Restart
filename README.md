@@ -20,6 +20,15 @@ Delete the workshop manifest file:
 Locate the appworkshop_108600.acf file inside the dedicated server installation directory.
 Delete the appworkshop_108600.acf file.
 
+Open your CMD an type in these commands:
+
+schtasks /create /tn "PZ-Restart-30m" /tr "cmd /c 30m.bat" /sc once /st 01:30:00
+schtasks /create /tn "PZ-Restart-20m" /tr "cmd /c 20m.bat" /sc once /st 01:40:00
+schtasks /create /tn "PZ-Restart-10m" /tr "cmd /c 10m.bat" /sc once /st 01:50:00
+schtasks /create /tn "PZ-Restart-5m" /tr "cmd /c 5m.bat" /sc once /st 01:55:00
+schtasks /create /tn "PZ-Restart-1m" /tr "cmd /c 1m.bat" /sc once /st 02:00:00
+schtasks /create /tn "PZ-Restart-Server" /tr "cmd /c quit.bat" /sc once /st 02:01:25
+
 Start the server:
 
 Launch the Project Zomboid dedicated server using the modified StartServer64.bat script.
