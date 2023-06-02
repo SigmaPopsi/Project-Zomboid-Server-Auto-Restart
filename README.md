@@ -40,3 +40,5 @@ Launch the Project Zomboid dedicated server using the modified StartServer64.bat
 With these steps, your Project Zomboid server will automatically send restart warnings to players at 10 minutes and 1 minute intervals before cleanly restarting the server. The process will repeat in a continuous loop.
 
 Found this on Reddit and edited it a bit: https://github.com/MonkeyyNinja/PZ-AutoRestart
+
+LMK if something doesnt work or is fucked (i wrote this on my knee)
